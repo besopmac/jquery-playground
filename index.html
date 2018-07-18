@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jQuery Playground</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300|Montserrat:600" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <section class="wrapper">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Product</th>
+                    <th scope="col" class="text-center">Price</th>
+                    <th scope="col" class="text-center">Quantity</th>
+                    <th scope="col" class="text-center">Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row" class="product">
+                        <a href="#"><span class="delete"><i class="fa fa-times"></i></span></a>
+                        <img src="https://placeimg.com/70/70/arch">
+                        <div class="item">
+                            <h6 class="title">Vanilla Sky</h6>
+                            <ul class="list">
+                                <li>Year: 2001</li>
+                                <li>Type: Sci-fi Drama</li>
+                            </ul>
+                        </div>
+                    </th>
+                    <td class="align-middle text-center price">$19</td>
+                    <td class="align-middle text-center amount">
+                        <a href="#" class="add"><i class="fa fa-minus-circle"></i></a>
+                        <span class="unit">1</span>
+                        <a href="#" class="sub"><i class="fa fa-plus-circle"></i></a>
+                    </td>
+                    <td class="align-middle text-center total">$19</td>
+                </tr>
+
+                <tr>
+                    <th scope="row" class="product">
+                        <a href="#"><span class="delete"><i class="fa fa-times"></i></span></a>
+                        <img src="https://placeimg.com/70/70/people">
+                        <div class="item">
+                            <h6 class="title">Avengers: Infinity War</h6>
+                            <ul class="list">
+                                <li>Year: 2018</li>
+                                <li>Type: Adventure</li>
+                            </ul>
+                        </div>
+                    </th>
+                    <td class="align-middle text-center price">$23</td>
+                    <td class="align-middle text-center amount">
+                        <a href="#" class="add"><i class="fa fa-minus-circle"></i></a>
+                        <span class="unit">1</span>
+                        <a href="#" class="sub"><i class="fa fa-plus-circle"></i></a>
+                    </td>
+                    <td class="align-middle text-center total">$23</td>
+                </tr>
+
+                <tr>
+                    <th scope="row" class="product">
+                        <a href="#"><span class="delete"><i class="fa fa-times"></i></span></a>
+                        <img src="https://placeimg.com/70/70/animals">
+                        <div class="item">
+                        <h6 class="title">Underdog</h6>
+                        <ul class="list">
+                            <li>Year: 2009</li>
+                            <li>Type: Adventure</li>
+                        </ul>
+                        </div>
+                    </th>
+                    <td class="align-middle text-center price">$9</td>
+                    <td class="align-middle text-center amount">
+                        <a href="#" class="add"><i class="fa fa-minus-circle"></i></a>
+                        <span class="unit">1</span>
+                        <a href="#" class="sub"><i class="fa fa-plus-circle"></i></a>
+                    </td>
+                    <td class="align-middle text-center total">$9</td>
+                </tr>
+            </tbody>
+        </table>
+      
+        <footer class="action">
+            <nav>
+                <button type="button" class="btn btn-primary btn-sm">Proceed to Checkout</button>
+                <button type="button" class="btn btn-outline-dark btn-sm">Coupon</button>
+            </nav>
+          
+            <div id="total" class="info">$ 175</div>
+        </footer>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
